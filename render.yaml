@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: codeigniter3-app
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
