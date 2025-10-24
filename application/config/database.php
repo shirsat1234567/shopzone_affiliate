@@ -78,25 +78,20 @@ $query_builder = TRUE;
 
 $db['default'] = array(
     'dsn'	=> '',
-    'hostname' => 'sql210.infinityfree.com',
-    'username' => 'if0_39966161',
-    'password' => 'NDgON85KIQZU',
-    'database' => 'if0_39966161_shopzone_affiliate',
+    'hostname' => 'mysql-server',  // हे तुझ्या Private Service चं नाव आहे
+    'username' => 'user',
+    'password' => 'strongpass123',
+    'database' => 'my_database',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
-    'db_debug' => (ENVIRONMENT !== 'production'),
+    'db_debug' => TRUE,
     'cache_on' => FALSE,
     'cachedir' => '',
     'char_set' => 'utf8',
     'dbcollat' => 'utf8_general_ci',
-    'swap_pre' => '',
-    'encrypt' => FALSE,
-    'compress' => FALSE,
-    'stricton' => FALSE,
-    'failover' => array(),
-    'save_queries' => TRUE
 );
+
 
 
 // $db['default'] = array(
